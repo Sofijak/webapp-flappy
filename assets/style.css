@@ -1,0 +1,29 @@
+h1 {
+    color: darkorange;
+    font-size: 50px;
+    font-style: oblique;
+    font-family: Arial, "Helvetica Neue", Helvetica, Arial, fantasy;
+}
+p {
+    color: darkorange;
+}
+ul {
+    color: darkorange;
+
+}
+li {
+    color: darkorange;
+}
+.score {
+    color: green;
+}
+.gold {
+    color: gold;
+}
+.silver {
+    color: red;
+}
+#gameLink {
+    text-align: center;
+    border: 10px dashed darkorange;
+}

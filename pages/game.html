@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<div class="container">
+    <div class="jumbotron">
+        <h1>Sofija's Flappy Bird</h1>
+        <p>Welcome to the best flappy bird game there is!</p>
+    </div>
+</div>
+
+<head>
+    <link rel="stylesheet" href="../lib/bootstrap.css"/>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="row">
+                <div class="col-xs-8">
+                    <p id="gameLink">
+                        <a href="example.html">
+                            <img src="../assets/screenshot.png" class="img-responsive" />
+                        </a>
+                    </p>
+                </div>
+            <div class="col-xs-4">
+                <p>The highest scorers are:</p>
+                <ul>
+                    <li class="gold">Me</li>
+                    <li class="score">Myself</li>
+                    <li class="score">I</li>
+                </ul>
+                <img src="../assets/YellowDuck.jpg" width="10%" height="10%"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4">
+                <img src="../assets/screenshotStart.png" class="img-rounded img-responsive"/>
+            </div>
+            <div class="col-xs-4">
+                <img src="../assets/screenshot.png" class="img-rounded img-responsive"/>
+            </div>
+            <div class="col-xs-4">
+                <img src="../assets/screenshotOver.png" class="img-rounded img-responsive"/>
+            </div>
+        </div>
+        <div id="greeting">
+            <form id="greeting-form" class="form-inline">
+                <div class="form-group">
+                    <label for="fullName">What's your name?</label>
+                    <input type="text" id="fullName"
+                           name="fullName" class="form-control"  placeholder="Sofija">
+
+                    <label for="fullemail">What's your email?</label>
+                    <input type="text" id="fullemail"
+                            name="fullemail" class="form-control" placeholder="sofija.saule@gmail.com">
+                    <input type="hidden" id="score" name="score" value="0">
+                </div>
+                <button class="btn btn-default" type="submit">OK</button>
+            </form>
+        </div>
+        <div id="game"> </div>
+        <script src="../lib/jquery.js"></script>
+        <script src="../lib/phaser.min.js"></script>
+        <script src="../js/flappy.js"></script>
+
+    </div>
+
+</body>
+
+</html>
